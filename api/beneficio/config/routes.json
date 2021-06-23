@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/beneficios",
+      "handler": "beneficio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/beneficios/count",
+      "handler": "beneficio.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/beneficios/:id",
+      "handler": "beneficio.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/beneficios",
+      "handler": "beneficio.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/beneficios/:id",
+      "handler": "beneficio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/beneficios/:id",
+      "handler": "beneficio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

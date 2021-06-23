@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "variacions",
+  "info": {
+    "name": "variacion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "valor": {
+      "type": "string"
+    }
+  }
+}

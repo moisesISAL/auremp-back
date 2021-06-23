@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/instruccions",
+      "handler": "instruccion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/instruccions/count",
+      "handler": "instruccion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/instruccions/:id",
+      "handler": "instruccion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/instruccions",
+      "handler": "instruccion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/instruccions/:id",
+      "handler": "instruccion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/instruccions/:id",
+      "handler": "instruccion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
