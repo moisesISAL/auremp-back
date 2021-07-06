@@ -1,6 +1,6 @@
 application:
-  name: Ecommerce
-  project: Ecommerce
+  name: strapi
+  project: auremp-strapi
   publicly_accessible: true
   storage: # qovery will attach automatically a SSD storage on /srv/app
     - name: data
@@ -20,4 +20,3 @@ routers:
   - application_name: strapi
     paths:
     - /*
- 
