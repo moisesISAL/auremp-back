@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "pedidos",
+  "collectionName": "ordens",
   "info": {
-    "name": "pedido",
+    "name": "Orden",
     "description": ""
   },
   "options": {
@@ -12,26 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "estado": {
-      "type": "enumeration",
-      "enum": [
-        "paid",
-        "unpaid",
-        "shipped",
-        "delivered"
-      ]
+    "productos": {
+      "collection": "producto"
     },
     "total": {
       "type": "decimal"
     },
-    "user": {
+    "mail": {
       "type": "string"
-    },
-    "productos": {
-      "collection": "producto"
-    },
-    "direccion": {
-      "type": "richtext"
     },
     "payment_id": {
       "type": "string"
@@ -41,6 +29,12 @@
     },
     "collection_status": {
       "type": "string"
+    },
+    "direccion": {
+      "type": "richtext"
+    },
+    "telefono": {
+      "type": "integer"
     }
   }
 }
